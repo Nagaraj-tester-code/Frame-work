@@ -14,6 +14,12 @@ public class SampleTest {
 	System.out.println(data.get(2));
 	System.out.println(data.get(3));
 	
+	DataDriven d1=new DataDriven();
+	ArrayList data1=d.getData("testdata");	
+	System.out.println(data.get(1));
+	System.out.println(data.get(2));
+	System.out.println(data.get(3));
+	
 	
 
 }
